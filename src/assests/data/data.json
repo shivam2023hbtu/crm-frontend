@@ -7,19 +7,19 @@
     },
     {
         "id" : 2,
-        "subject" : "infra problem",
+        "subject" : "Cloud problem",
         "status" : "pending",
         "opened" : "22-09-2023" 
     },
     {
         "id" : 3,
-        "subject" : "infra problem",
+        "subject" : "Dashboard problem",
         "status" : "pending",
         "opened" : "22-09-2023" 
     },
     {
         "id" : 4,
-        "subject" : "infra problem",
+        "subject" : "Network problem",
         "status" : "pending",
         "opened" : "22-09-2023" 
     }

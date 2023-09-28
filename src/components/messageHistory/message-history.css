@@ -1,0 +1,24 @@
+.message-history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.message-history:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.message{
+    padding: 1rem;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    border-left: .25rem solid gray;
+    border-right: .25rem solid gray;
+    border-top: 1px solid gray;
+    border-radius: 0.5rem;
+    background: rgb(243, 239, 239);
+    
+    
+}

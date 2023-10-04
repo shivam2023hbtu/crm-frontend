@@ -3,7 +3,8 @@ import { Button, Col, Container,Row} from 'react-bootstrap'
 import {SearchForm} from '../../components/searchForm/SearchForm.js'
 import {TicketTable} from '../../components/ticket-table/TicketTable.js'
 import tickets from '../../assests/data/data.json'
-export const TickietList = () => {
+import { Link } from 'react-router-dom'
+export const TicketList = () => {
   
   const [Str , setStr]= useState("");
   const [displayTickets, setDisplayTickets]=useState(tickets);
@@ -27,7 +28,10 @@ export const TickietList = () => {
     <Container>
         <Row>
           <Col>
+          <Link to="/add-ticket">
           <Button className='mt-3' variant='dark' >Add New Ticket</Button>
+          </Link>
+          
           </Col>
           <Col className='text-right'>
             <SearchForm

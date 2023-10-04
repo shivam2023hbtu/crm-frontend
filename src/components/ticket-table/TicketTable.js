@@ -2,6 +2,7 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom';
 
 export const TicketTable = ({tickets}) => {
   
@@ -20,7 +21,9 @@ export const TicketTable = ({tickets}) => {
         tickets.map(row=> 
                <tr key={row.id}>
                 <th>{row.id}</th>
-                <th>{row.subject}</th>
+                <th>
+                  <Link to={`/ticket/${row.id}`}>{row.subject}</Link>
+                  </th>
                 <th>{row.status}</th>
                 <th>{row.opened}</th>
             </tr>):
@@ -31,8 +34,8 @@ export const TicketTable = ({tickets}) => {
         </tbody>
     </Table>
   )
-}
+};
 
 TicketTable.prototype={
   tickets: PropTypes.array.isRequired,
-}
+};

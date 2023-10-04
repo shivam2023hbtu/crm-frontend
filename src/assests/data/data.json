@@ -72,23 +72,7 @@
         "id" : 4,
         "subject" : "Network problem",
         "status" : "pending",
-        "opened" : "22-09-2023" ,
-        "history":[
-            {
-                "date":"22-09-2023",
-                "message":"This---->>message-->>is-->>given-->>by-->>data",
-                "messageby":"Lodu Lalit"
-            },
-            {
-                "date":"23-09-2023",
-                "message":"This---->>message-->>is-->>given-->>by-->>data",
-                "messageby":"Ponga Pandit"
-            },
-            {
-                "date":"23-09-2023",
-                "message":"This---->>message-->>is-->>given-->>by-->>data",
-                "messageby":"Mahesh Muhchod"
-            }
-        ]
+        "opened" : "22-09-2023" 
+        
     }
 ]
